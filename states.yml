@@ -1,0 +1,109 @@
+---
+"PIN":
+  frontpage: true
+  title: "Siseta PIN"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    go: "ESILEHT"
+"ESILEHT":
+  title: "Vali tegevus"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Lõpeta"
+    go: "LÕPETA"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Sularaha väljavõtt"
+    go: "SULARAHA"
+"SULARAHA":
+  title: "Raha põle!"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Tagasi"
+    go: "ESILEHT"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: null
+    go: null
+"LÕPETA":
+  title: "Eemalda kaart"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: null
+    go: null
+  timer:
+    time: 2000
+    go: "PIN"

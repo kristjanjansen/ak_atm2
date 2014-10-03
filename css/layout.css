@@ -1,0 +1,52 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.left-shield, .right-shield {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  background: black;
+}
+.left-shield {
+  left: 0;
+}
+.right-shield {
+  right: 0;
+}
+.left, .right {
+  position: absolute;
+  bottom: 0;
+}
+.left {
+  left: 150px;
+}
+.right {
+  right: 150px;
+}
+.b {
+  margin-bottom:40px;
+}
+.hidden {
+  opacity: 0;
+}
+.left .label, .right .button {
+  float: right;
+  margin-left: 27px;
+}
+.label, .button {
+  display: inline-block;
+  padding: 10px;
+  background: #fff;
+}
+.label {
+  width: 400px;
+  height: 70px;
+}
+.button {
+  width: 70px;
+  height: 70px;
+}
