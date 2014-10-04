@@ -89,7 +89,8 @@ $(function() {
   $.get('states.yml', function(data) {
     
     var states = yaml.load(data)
-    
+ //   console.log(states)
+  
   for (var key in states) {
     if (states[key].frontpage) {
       currentState = key
@@ -102,11 +103,13 @@ $(function() {
 $('.button').on('click', function() {
   
   var id = $(this).parent().attr('id')
+  if (sound = states[currentState][id].button_sound || null) {
+    playSound(sound)
+  }
   currentState = states[states[currentState][id].go] ? states[currentState][id].go : currentState
   renderState(currentState)
  
   if (states[currentState].timer) {
-    console.log(states[currentState].timer)
     setTimeout(function() {
       currentState = states[states[currentState].timer.go] ? states[currentState].timer.go : currentState
       renderState(currentState)
@@ -116,6 +119,9 @@ $('.button').on('click', function() {
     
 })
 
+function playSound(sound) {
+  $('audio').attr('src','audio/' + sound).trigger('play')
+}
 
 function renderState(currentState) {
   $('.title').html(states[currentState].title)
