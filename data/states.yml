@@ -40,7 +40,6 @@
   b4:
     label: "Lõpeta"
     go: "LÕPETA"
-    button_sound: "exit.mp3"          
   b5:
     label: null
     go: null
@@ -53,7 +52,6 @@
   b8:
     label: "Sularaha väljavõtt"
     go: "SULARAHA"
-    button_sound: "error.mp3"      
 "SULARAHA":
   title: "Raha põle!"
   b1:

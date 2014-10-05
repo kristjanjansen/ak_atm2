@@ -50,3 +50,30 @@ body {
   width: 70px;
   height: 70px;
 }
+
+/*
+body {
+  font-size: 40px;
+  background: orange;
+  font-family: sans-serif;
+}
+.title {
+  text-align: center;
+  margin-top: 300px;
+  font-size: 70px;
+}
+.label, .button {
+  border: 3px solid black;
+}
+.left .label {
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+}
+.right .label {
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+}
+.button {
+  border-radius:10px;  
+}
+*/
