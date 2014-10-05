@@ -1,3 +1,10 @@
+## Installing
+
+```
+git clone https://github.com/kristjanjansen/ak_atm2
+cd ak_atm2
+```
+
 ## Running
 
 First, run
@@ -6,7 +13,7 @@ First, run
 node server.js
 ```
 
-from the home directory. Then, point your browser to the URL the command above gave you.
+Then, point your browser to the URL the command gave you.
 
 Note that you can change the port number: ```node server.js portnumber```.
 
