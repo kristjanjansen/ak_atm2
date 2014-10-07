@@ -1,6 +1,33 @@
 ---
-"PIN":
+"SISESTAKAART":
   frontpage: true
+  title: "Palun sisesta kaart"
+  b1:
+    label: null
+    go: null
+    button_sound: "error.mp3"
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    go: "ESILEHT"
+"PIN":
   title: "Siseta PIN"
   b1:
     label: null
@@ -29,11 +56,11 @@
 "ESILEHT":
   title: "Vali tegevus"
   b1:
-    label: null
-    go: null
+    label: "Keele valik"
+    go: "KEEL"
   b2:
-    label: null
-    go: null
+    label: "Muuda PIN-kood"
+    go: "VANAPIN"
   b3:
     label: null
     go: null
@@ -44,16 +71,68 @@
     label: null
     go: null
   b6:
+    label: "Kontojääk"
+    go: "KONTOJAAK"
+  b7:
+    label: "Maksed"
+    go: "MAKSED"
+  b8:
+    label: "Sularaha väljavõtt"
+    go: "SULARAHA"
+"KONTOJAAK":
+  title: "Kontojääk"
+  b1:
+    label: "Ekraanil"
+    go: "EKRAANIKONTOJÄÄK"
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Tagasi"
+    go: "ESILEHT"
+  b5:
+    label: "Paberil"
+    go: "PABERIL"
+  b6:
     label: null
     go: null
   b7:
     label: null
     go: null
   b8:
-    label: "Sularaha väljavõtt"
-    go: "SULARAHA"
+    label: null
+    go: "ESILEHT"
 "SULARAHA":
-  title: "Raha põle!"
+  title: "Sularaha väljavõtt"
+  b1:
+    label: "5 €"
+    go: "RAHALOEND"
+  b2:
+    label: "10 €"
+    go: "RAHALOEND"
+  b3:
+    label: "20 €"
+    go: "RAHALOEND"
+  b4:
+    label: "50 €"
+    go: "RAHALOEND"
+  b5:
+    label: "100 €"
+    go: "POLEVAHENDEID"
+  b6:
+    label: "Väiksed kupüürid"
+    go: "VAIKSEDKUPUURID"
+  b7:
+    label: "Muu summa"
+    go: "SISESTASUMMA"
+  b8:
+    label: "Tagasi"
+    go: "ESILEHT"
+"PABERIL":
+  title: "Paberit põle!"
   b1:
     label: null
     go: null
@@ -106,4 +185,267 @@
     go: null
   timer:
     time: 2000
-    go: "PIN"
+    go: "SISESTAKAART"
+"MAKSED":
+  title: "See automaat ei paku maksete funktsionaalsust"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Lõpeta"
+    go: "LÕPETA"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: null
+    go: null
+"RAHALOEND":
+  title: "Palun oodake, raha loetakse..."
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: null
+    go: null
+  timer:
+    time: 2000
+    go: "VOTKERAHA"
+"VOTKERAHA":
+  title: "Palun võtke raha!"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Lõpeta"
+    go: "LÕPETA"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    go: "ESILEHT"
+"POLEVAHENDEID":
+  title: "Kontol pole piisavalt vahendeid"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Tagasi"
+    go: "SULARAHA"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: null
+    go: null
+"VAIKSEDKUPUURID":
+  title: "Väiksed kupüürid"
+  b1:
+    label: "5 €"
+    go: "RAHALOEND"
+  b2:
+    label: "10 €"
+    go: "RAHALOEND"
+  b3:
+    label: "20 €"
+    go: "RAHALOEND"
+  b4:
+    label: "50 €"
+    go: "RAHALOEND"
+  b5:
+    label: "100 €"
+    go: "POLEVAHENDEID"
+  b6:
+    label: null
+    go: null
+  b7:
+    label: "Muu summa"
+    go: "SISESTASUMMA"
+  b8:
+    label: "Tagasi"
+    go: "ESILEHT"
+"SISESTASUMMA":
+  title: "Sisesta summa"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Tagasi"
+    go: "SULARAHA"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    go: "RAHALOEND"
+"KEEL":
+  title: "Keele valik"
+  b1:
+    label: "Eesti"
+    go: "ESILEHT"
+  b2:
+    label: "English"
+    go: "ESILEHT"
+  b3:
+    label: "Russki jazüök"
+    go: "ESILEHT"
+  b4:
+    label: "Tagasi"
+    go: "ESILEHT"
+  b5:
+    label: "Suomeksi"
+    go: "ESILEHT"
+  b6:
+    label: "Svenska"
+    go: "ESILEHT"
+  b7:
+    label: null
+    go: null
+  b8:
+    label: null
+    go: null
+"VANAPIN":
+  title: "Sisesta vana PIN-kood:"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Tagasi"
+    go: "ESILEHT"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "OK"
+    go: "PINMUUTMINE"
+"PINMUUTMINE":
+  title: "Uus PIN-kood"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Katkesta"
+    go: "ESILEHT"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    go: "ESILEHT"
+"EKRAANIKONTOJÄÄK":
+  title: "Teie kontojääk on:"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Tagasi"
+    go: "ESILEHT"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Lõpeta"
+    go: "LÕPETA"

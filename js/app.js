@@ -17,6 +17,7 @@ $('.button').on('click', function() {
   
   var id = $(this).parent().attr('id')
   if (sound = states[currentState][id].button_sound || null) {
+
     playSound(sound)
   }
   currentState = states[states[currentState][id].go] ? states[currentState][id].go : currentState
