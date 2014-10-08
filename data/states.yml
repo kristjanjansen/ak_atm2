@@ -5,7 +5,6 @@
   b1:
     label: null
     go: null
-    button_sound: "error.mp3"
   b2:
     label: null
     go: null
@@ -349,10 +348,10 @@
   title: "Keele valik"
   b1:
     label: "Eesti"
-    go: "ESILEHT"
+    go: null
   b2:
     label: "English"
-    go: "ESILEHT"
+    go: null
   b3:
     label: "Russki jazüök"
     go: "ESILEHT"
