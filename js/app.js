@@ -19,13 +19,15 @@ $(function() {
 
 
 $('.button').on('click', function() {
-  
-  $('#firstSound').attr('src','audio/' + buttonSound).trigger('play')
 
   var id = $(this).parent().attr('id')
 
   if (language = states[currentState][id].language) {
     currentLanguage = language
+  }
+
+  if (states[currentState][id].go && buttonSound)  {
+    $('#firstSound').attr('src','audio/' + buttonSound).trigger('play')
   }
 
   if (states[currentState][id].go && (introSound = states[states[currentState][id].go].intro_sound)) { 

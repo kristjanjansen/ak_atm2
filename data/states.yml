@@ -1,6 +1,7 @@
 ---
 "SISESTAKAART":
   frontpage: true
+  button_sound: exit.mp3
   title: "Palun sisesta kaart"
   b1:
     label: null
