@@ -3,6 +3,8 @@
 }
 body {
   margin: 0px;
+  padding: 0px;
+  ooverflow: hidden;
 }
 .left-shield, .right-shield {
   position: absolute;
