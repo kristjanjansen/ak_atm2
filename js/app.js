@@ -26,7 +26,7 @@ $('.button').on('click', function() {
     currentLanguage = language
   }
 
-  if (states[currentState][id].go && buttonSound)  {
+  if ((states[currentState][id].go || states[currentState][id].language) && buttonSound)  {
     $('#firstSound').attr('src','audio/' + buttonSound).trigger('play')
   }
 

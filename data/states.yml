@@ -1,14 +1,16 @@
 ---
 "SISESTAKAART":
   frontpage: true
-  button_sound: exit.mp3
   title: "Palun sisesta kaart"
+  title_en: "Please insert the card"
   b1:
     label: null
     go: null
+    language: et
   b2:
     label: null
     go: null
+    language: en
   b3:
     label: null
     go: null
@@ -26,9 +28,10 @@
     go: null
   b8:
     label: "Jätka"
-    go: "ESILEHT"
+    go: "PIN"
 "PIN":
-  title: "Siseta PIN"
+  title: "Sisesta PIN:"
+  intro_sound: "ATM_kaardisisestus.mp3"
   b1:
     label: null
     go: null
@@ -39,8 +42,8 @@
     label: null
     go: null
   b4:
-    label: null
-    go: null
+    label: "Katkesta"
+    go: "LÕPETA"
   b5:
     label: null
     go: null
@@ -55,35 +58,38 @@
     go: "ESILEHT"
 "ESILEHT":
   title: "Vali tegevus"
+  title_en: "Select activity"
+  title_th: "กิจกรรมที่เลือก"
   b1:
-    label: "Keele valik"
-    go: "KEEL"
+    label: "Maksed"
+    go: "MAKSED"
   b2:
-    label: "Muuda PIN-kood"
+    label: "PIN-koodi muutmine"
     go: "VANAPIN"
   b3:
-    label: null
-    go: null
+    label: "Keele valik"
+    label_en: "Change language"
+    go: "KEEL"
   b4:
-    label: "Lõpeta"
+    label: "Kaardi tagastamine"
     go: "LÕPETA"
   b5:
-    label: null
-    go: null
+    label: "Raha väljavõtmine"
+    go: "SULARAHA"
   b6:
     label: "Kontojääk"
     go: "KONTOJAAK"
   b7:
-    label: "Maksed"
-    go: "MAKSED"
+    label: "Konto väljavõte"
+    go: "KONTOVALJAVOTE"
   b8:
-    label: "Sularaha väljavõtt"
-    go: "SULARAHA"
+    label: null
+    go: null
 "KONTOJAAK":
   title: "Kontojääk"
   b1:
-    label: "Ekraanil"
-    go: "EKRAANIKONTOJÄÄK"
+    label: null
+    go: null
   b2:
     label: null
     go: null
@@ -91,11 +97,11 @@
     label: null
     go: null
   b4:
-    label: "Tagasi"
-    go: "ESILEHT"
-  b5:
     label: "Paberil"
     go: "PABERIL"
+  b5:
+    label: null
+    go: null
   b6:
     label: null
     go: null
@@ -103,10 +109,62 @@
     label: null
     go: null
   b8:
+    label: "Ekraanil"
+    go: "EKRAANIKONTOJÄÄK"
+"KONTOVALJAVOTE":
+  title: "Konto väljavõte"
+  b1:
     label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Paberil"
+    go: "PABERIL"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Ekraanil"
+    go: "EKRAANIKONTOJÄÄK"
+"KONTOVALJAVOTEEKRAANIL":
+  title: "Teie konto väljavõte:"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
     go: "ESILEHT"
 "SULARAHA":
-  title: "Sularaha väljavõtt"
+  title: "Raha väljavõtmine"
   b1:
     label: "5 €"
     go: "RAHALOEND"
@@ -117,20 +175,20 @@
     label: "20 €"
     go: "RAHALOEND"
   b4:
-    label: "50 €"
+    label: "40 €"
     go: "RAHALOEND"
   b5:
-    label: "100 €"
-    go: "POLEVAHENDEID"
+    label: "80 €"
+    go: "RAHALOEND"
   b6:
+    label: "160 €"
+    go: "RAHALOEND"
+  b7:
     label: "Väiksed kupüürid"
     go: "VAIKSEDKUPUURID"
-  b7:
+  b8:
     label: "Muu summa"
     go: "SISESTASUMMA"
-  b8:
-    label: "Tagasi"
-    go: "ESILEHT"
 "PABERIL":
   title: "Paberit põle!"
   b1:
@@ -253,7 +311,7 @@
     label: null
     go: null
   b4:
-    label: "Lõpeta"
+    label: "Kaardi tagastamine"
     go: "LÕPETA"
   b5:
     label: null
@@ -296,29 +354,29 @@
 "VAIKSEDKUPUURID":
   title: "Väiksed kupüürid"
   b1:
-    label: "5 €"
+    label: "20 €"
     go: "RAHALOEND"
   b2:
-    label: "10 €"
+    label: "30 €"
     go: "RAHALOEND"
   b3:
-    label: "20 €"
+    label: "40 €"
     go: "RAHALOEND"
   b4:
     label: "50 €"
     go: "RAHALOEND"
   b5:
-    label: "100 €"
-    go: "POLEVAHENDEID"
+    label: "70 €"
+    go: "RAHALOEND"
   b6:
-    label: null
-    go: null
+    label: "100 €"
+    go: "RAHALOEND"
   b7:
+    label: "120 €"
+    go: "POLEVAHENDEID"
+  b8:
     label: "Muu summa"
     go: "SISESTASUMMA"
-  b8:
-    label: "Tagasi"
-    go: "ESILEHT"
 "SISESTASUMMA":
   title: "Sisesta summa"
   b1:
@@ -346,33 +404,35 @@
     label: "Jätka"
     go: "RAHALOEND"
 "KEEL":
-  title: "Keele valik"
+  title: "Vali keel"
+  title_en: "Language"
+  title_th: "เลือกภาษา"
   b1:
-    label: "Eesti"
-    go: null
-  b2:
-    label: "English"
-    go: null
-  b3:
-    label: "Russki jazüök"
-    go: "ESILEHT"
-  b4:
-    label: "Tagasi"
-    go: "ESILEHT"
-  b5:
-    label: "Suomeksi"
-    go: "ESILEHT"
-  b6:
-    label: "Svenska"
-    go: "ESILEHT"
-  b7:
     label: null
     go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Tagasi/Back/กลับ"
+    go: "ESILEHT"
+  b5:
+    label: "Eesti keel"
+    language: "et"
+  b6:
+    label: "In English"
+    language: "en"
+  b7:
+    label: "ในไต้หวัน"
+    language: "th"
   b8:
     label: null
     go: null
 "VANAPIN":
-  title: "Sisesta vana PIN-kood:"
+  title: "Hoiatus - ära pane sama PIN-i uuesti!"
   b1:
     label: null
     go: null
@@ -383,8 +443,8 @@
     label: null
     go: null
   b4:
-    label: "Tagasi"
-    go: "ESILEHT"
+    label: null
+    go: null
   b5:
     label: null
     go: null
@@ -395,10 +455,10 @@
     label: null
     go: null
   b8:
-    label: "OK"
+    label: "Jätka"
     go: "PINMUUTMINE"
 "PINMUUTMINE":
-  title: "Uus PIN-kood"
+  title: "Uus PIN-kood:"
   b1:
     label: null
     go: null
@@ -411,6 +471,35 @@
   b4:
     label: "Katkesta"
     go: "ESILEHT"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: "Kustuta"
+    go: null
+  b8:
+    label: null
+    go: null
+  timer:
+    time: 2000
+    go: "PINMUUDETUD"
+"PINMUUDETUD":
+  title: "PIN on muudetud!"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
   b5:
     label: null
     go: null
@@ -435,8 +524,8 @@
     label: null
     go: null
   b4:
-    label: "Tagasi"
-    go: "ESILEHT"
+    label: null
+    go: null
   b5:
     label: null
     go: null
@@ -447,5 +536,5 @@
     label: null
     go: null
   b8:
-    label: "Lõpeta"
-    go: "LÕPETA"
+    label: "Jätka"
+    go: "ESILEHT"
