@@ -14,21 +14,3 @@ console.log(
   'In this machine: http://localhost:' + port + '\n' +
   'In local network: http://' + ip.address() + ':' + port
 )
-
-var pcsc = require('node-pcsc')
-var list = require('./node_modules/node-pcsc/lib/smcard-list.js')
-
-pcsc.init();
-
-io.on('connection', function (socket) {
-  
-  pcsc.on('evt', function(evt) {
-    console.log(list.list[evt.card.ATR])
-  	if (Object.keys(evt.card).length !== 0 && evt.reader.status == 'SCARD_STATE_PRESENT') {
-  	  socket.emit('message', { status: 'card_in', card: list.list[evt.card.ATR] });
-  	} else if (evt.reader.status == 'SCARD_STATE_EMPTY') {
-  	  socket.emit('message', { status: 'card_out'});
-  	}
-  });
-
-});
