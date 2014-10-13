@@ -1,0 +1,11 @@
+.title {
+  text-align: center;
+  margin-top: 250px;
+}
+body {
+  font-size: 40px;
+  font-family: "Arial";
+}
+.label, .button {
+  border: 3px solid black;
+}
