@@ -29,6 +29,8 @@
   b8:
     label: "Jätka"
     go: "PIN"
+  card_in:
+    go: "PIN"
 "PIN":
   title: "Sisesta PIN:"
   intro_sound: "ATM_kaardisisestus.mp3"

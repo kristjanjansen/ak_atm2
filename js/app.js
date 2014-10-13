@@ -1,5 +1,17 @@
 $(function() {
 
+  var socket = io();
+  socket.on('connect', function() {
+    socket.on('message', function(data) {
+      if (data.status == 'card_in') {
+        $('#card_in .button').trigger('click')
+      } else if (data.status == 'card_out') {
+        $('#card_out .button').trigger('click')
+      }
+    });
+  });
+  
+  
   $.get('data/states.yml', function(data) {
     
   var states = yaml.load(data)
@@ -19,15 +31,13 @@ $(function() {
 
 
 $('.button').on('click', function() {
+  
+  $('#firstSound').attr('src','audio/' + buttonSound).trigger('play')
 
   var id = $(this).parent().attr('id')
-
+  console.log(id)
   if (language = states[currentState][id].language) {
     currentLanguage = language
-  }
-
-  if ((states[currentState][id].go || states[currentState][id].language) && buttonSound)  {
-    $('#firstSound').attr('src','audio/' + buttonSound).trigger('play')
   }
 
   if (states[currentState][id].go && (introSound = states[states[currentState][id].go].intro_sound)) { 
@@ -46,8 +56,6 @@ $('.button').on('click', function() {
     }, states[currentState].timer.time)
   }
   
-  console.log('Current language: ', currentLanguage)
-
 })
 
 function renderState(currentState) {
@@ -71,6 +79,4 @@ function renderState(currentState) {
 })
 
 })
-
-
 
