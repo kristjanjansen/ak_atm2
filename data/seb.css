@@ -5,6 +5,7 @@
 body {
   font-size: 40px;
   font-family: "Arial";
+    color:green;
 }
 .label, .button {
   border: 3px solid black;

@@ -1,16 +1,14 @@
 ---
 "SISESTAKAART":
   frontpage: true
-  title: "Palun sisesta kaart"
+  title: Palun sisesta kaart <br> <a href="https://docs.google.com/document/d/1IuxKIa15PW7NOFNChkc5IEfbsghaHYypdBDslabHlNk/edit?pli=1">states.yml</a> <br> <a href="https://docs.google.com/document/d/1NWUOdAGRB5M-radoYPYOWOZlJIHXpKVmUZWEFPAguGk/edit?pli=1">keel ja saund</a>
   title_en: "Please insert the card"
   b1:
     label: null
     go: null
-    language: et
   b2:
     label: null
     go: null
-    language: en
   b3:
     label: null
     go: null
@@ -28,11 +26,15 @@
     go: null
   b8:
     label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
     go: "PIN"
   card_in:
     go: "PIN"
 "PIN":
   title: "Sisesta PIN:"
+  title_en: "Enter the PIN" 
+  title_th: "ป้อน PIN"
   intro_sound: "ATM_kaardisisestus.mp3"
   b1:
     label: null
@@ -45,6 +47,8 @@
     go: null
   b4:
     label: "Katkesta"
+    label_en: "Abort" 
+    label_th: "ยกเลิก"
     go: "LÕPETA"
   b5:
     label: null
@@ -57,6 +61,8 @@
     go: null
   b8:
     label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
     go: "ESILEHT"
 "ESILEHT":
   title: "Vali tegevus"
@@ -64,31 +70,46 @@
   title_th: "กิจกรรมที่เลือก"
   b1:
     label: "Maksed"
+    label_en: "Payments"
+    label_th:  "การชำระเงิน"
     go: "MAKSED"
   b2:
     label: "PIN-koodi muutmine"
+    label_en: "Change PIN code" 
+    label_th: "เปลี่ยน รหัส PIN"
     go: "VANAPIN"
   b3:
     label: "Keele valik"
     label_en: "Change language"
+    label_th: "เลือกภาษา"
     go: "KEEL"
   b4:
     label: "Kaardi tagastamine"
+    label_en: "Return the Card"
+    label_th: "คืนบัตร"
     go: "LÕPETA"
   b5:
     label: "Raha väljavõtmine"
+    label_en: "Cash Withdrawal"
+    label_th: "ถอนเงินสด"
     go: "SULARAHA"
   b6:
     label: "Kontojääk"
+    label_en: "Account Balance"
+    label_th: "ยอดคงเหลือ บัญชี"
     go: "KONTOJAAK"
   b7:
     label: "Konto väljavõte"
+    label_en: "Overview"
+    label_th: "ภาพรวม"
     go: "KONTOVALJAVOTE"
   b8:
     label: null
     go: null
 "KONTOJAAK":
   title: "Kontojääk"
+  title_en: "Account Balance"
+  title_th: "ยอดคงเหลือ บัญชี"
   b1:
     label: null
     go: null
@@ -100,6 +121,8 @@
     go: null
   b4:
     label: "Paberil"
+    label_en: "On Receipt"
+    label_th:  "บนกระดาษ"
     go: "PABERIL"
   b5:
     label: null
@@ -112,9 +135,13 @@
     go: null
   b8:
     label: "Ekraanil"
+    label_en: "On the Screen"
+    label_th: "บนหน้าจอ"
     go: "EKRAANIKONTOJÄÄK"
 "KONTOVALJAVOTE":
   title: "Konto väljavõte"
+  title_en: "Overview"
+  title_th: "ภาพรวม"
   b1:
     label: null
     go: null
@@ -126,6 +153,8 @@
     go: null
   b4:
     label: "Paberil"
+    label_en: "On Receipt"
+    label_th:  "บนกระดาษ"
     go: "PABERIL"
   b5:
     label: null
@@ -138,9 +167,13 @@
     go: null
   b8:
     label: "Ekraanil"
+    label_en: "On the Screen"
+    label_th: "บนหน้าจอ"
     go: "EKRAANIKONTOJÄÄK"
 "KONTOVALJAVOTEEKRAANIL":
   title: "Teie konto väljavõte:"
+  title_en: "Overview"
+  title_th: "ภาพรวม"
   b1:
     label: null
     go: null
@@ -167,6 +200,8 @@
     go: "ESILEHT"
 "SULARAHA":
   title: "Raha väljavõtmine"
+  title_en: "Cash Withdrawal"
+  title_th: "ถอนเงินสด"
   b1:
     label: "5 €"
     go: "RAHALOEND"
@@ -192,7 +227,9 @@
     label: "Muu summa"
     go: "SISESTASUMMA"
 "PABERIL":
-  title: "Paberit põle!"
+  title: "Paberit pole!"
+  label_en: "There is no paper"
+  label_th: "ไม่มีกระดาษคือ"
   b1:
     label: null
     go: null
@@ -219,6 +256,8 @@
     go: null
 "LÕPETA":
   title: "Eemalda kaart"
+  title_en: "Remove the Card" 
+  title_th: "ลบการ์ด"
   b1:
     label: null
     go: null
@@ -248,6 +287,8 @@
     go: "SISESTAKAART"
 "MAKSED":
   title: "See automaat ei paku maksete funktsionaalsust"
+  title_en: "This ATM does not provide payment functionality"
+  title_th: "ATM นี้จะไม่ให้การทำงานที่ชำระเงิน" 
   b1:
     label: null
     go: null
@@ -314,6 +355,8 @@
     go: null
   b4:
     label: "Kaardi tagastamine"
+    label_en: "Return the Card"
+    label_th: "คืนบัตร"
     go: "LÕPETA"
   b5:
     label: null
