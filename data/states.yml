@@ -65,7 +65,7 @@
     label_th: "ดำเนินการต่อ"
     go: "ESILEHT"
 "ESILEHT":
-  title: "Vali tegevus"
+  title: "Palun valige toiming"
   title_en: "Select activity"
   title_th: "กิจกรรมที่เลือก"
   b1:

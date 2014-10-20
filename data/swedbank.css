@@ -1,7 +1,10 @@
+// Example: http://g4.nh.ee/images/pix/900x585/66347bb7/file63889819_4020adfb.jpg
+
 .title {
   text-align: left;
-  margin-top: 100px;
-    padding-left:300px;
+  margin-top: 80px;
+  padding-left:320px;
+  font-size: 48px;
 }
 body {
   font-size: 40px;
@@ -20,7 +23,25 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffca0b', endColorstr='#ff9500', GradientType=1 );
   
 }
-.label, .button {
-  border: 3px solid black;
+
+.left .b {
+    text-align: right;
+}
+.left .label  {
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  border-radius: 0 12px 12px 0;
+  box-shadow: 5px 5px 12px 2px rgba(0,0,0,0.25)
+}
+.right .label  {
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  border-bottom: 3px solid white;
+  border-radius: 12px 0 0 12px;
+  box-shadow: 5px 5px 12px 2px rgba(0,0,0,0.25)
+}
+.button {
+  border-radius: 6px;
 }
 
