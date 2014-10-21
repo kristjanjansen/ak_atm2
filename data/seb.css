@@ -4,9 +4,18 @@
 }
 body {
   font-size: 40px;
-  font-family: "Arial";
-    color:green;
+  font-family: "Arial"
 }
-.label, .button {
-  border: 3px solid black;
+.background {
+	background-color:green;
+}
+.left .label {
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+}
+.right .label {
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
 }
