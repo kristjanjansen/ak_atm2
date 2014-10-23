@@ -62,6 +62,7 @@
   title: "Sisesta summa"
   title_en: "Enter the sum of"
   title_th: "ใส่ผลรวมของ"
+  input_cash: true
   b1:
     label: null
     go: null

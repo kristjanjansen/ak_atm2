@@ -38,6 +38,7 @@
   title_en: "Enter the PIN" 
   title_th: "ป้อน PIN"
   intro_sound: "ATM_kaardisisestus.mp3"
+  input_pin: true
   b1:
     label: null
     go: null
