@@ -1,0 +1,311 @@
+"POLEVAHENDEID":
+  title: "Kontol pole piisavalt vahendeid"
+  title_en: "Insufficient funds"
+  title_th: "เงินทุนไม่เพียงพอ"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Tagasi"
+    label_en: "Back"
+    label_th: "กลับ"  
+    go: "SULARAHA"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: null
+    go: null
+"VAIKSEDKUPUURID":
+  title: "Väiksed kupüürid"
+  title_en: "Small notes"
+  title_th: "หมายเหตุ ขนาดเล็ก"
+  b1:
+    label: "20 €"
+    go: "RAHALOEND"
+  b2:
+    label: "30 €"
+    go: "RAHALOEND"
+  b3:
+    label: "40 €"
+    go: "RAHALOEND"
+  b4:
+    label: "50 €"
+    go: "RAHALOEND"
+  b5:
+    label: "70 €"
+    go: "RAHALOEND"
+  b6:
+    label: "100 €"
+    go: "RAHALOEND"
+  b7:
+    label: "120 €"
+    go: "POLEVAHENDEID"
+  b8:
+    label: "Muu summa"
+    label_en: "Other amount" 
+    label_th: "จํานวนเงิน อื่น ๆ"
+    go: "SISESTASUMMA"
+"SISESTASUMMA":
+  title: "Sisesta summa"
+  title_en: "Enter the sum of"
+  title_th: "ใส่ผลรวมของ"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Tagasi"
+    label_en: "Back"
+    label_th: "กลับ"  
+    go: "SULARAHA"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
+    go: "RAHALOEND"
+"KEEL":
+  title: "Vali keel"
+  title_en: "Language"
+  title_th: "เลือกภาษา"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Tagasi/Back/กลับ"
+    go: "ESILEHT"
+  b5:
+    label: "Eesti keel"
+    language: "et"
+    go: "ESILEHT"
+  b6:
+    label: "In English"
+    language: "en"
+    go: "ESILEHT"
+  b7:
+    label: "ในไต้หวัน"
+    language: "th"
+    go: "ESILEHT"
+  b8:
+    label: null
+    go: null
+"VANAPIN":
+  title: "Hoiatus - ära pane sama PIN-i uuesti!"
+  title_en: "Warning - do not place the same PIN again!"
+  title_th: "คำเตือน - อย่าวาง PIN เดียวกันอีกครั้ง!"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
+    go: "PINMUUTMINE"
+"PINMUUTMINE":
+  title: "Uus PIN-kood:"
+  title_en: "New PIN"
+  title_th: "PIN ใหม่"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Katkesta"
+    label_en: "Abort"
+    label_th: "ยกเลิก"
+    go: "ESILEHT"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: "Kustuta"
+    label_en: "Delete"
+    label_th: "ลบ"
+    go: null
+  b8:
+    label: null
+    go: null
+  timer:
+    time: 2000
+    go: "PINMUUDETUD"
+"PINMUUDETUD":
+  title: "PIN on muudetud!"
+  title_en: "PIN has been changed!"
+  title_th: "ได้เปลี่ยนรหัส PIN!"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
+    go: "ESILEHT"
+"EKRAANIKONTOJÄÄK":
+  title: "Kontojääk: 100 €<br /><br />Broneeritud: 10 €"
+  title_en: "Account Balance: 100 €<br /><br />Booked: 10 €"
+  title_th: "ยอดคงเหลือบัญชี: 100 €<br /><br />จอง: 10 €"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
+    go: "ESILEHT"
+"PABERIL":
+  title: "Palun oodake, paberit prinditakse..."
+  title_en: "Please wait.."
+  title_th: "ไม่มีกระดาษคือ"
+  intro_sound: "printer.mp3"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: null
+    go: null
+  timer:
+    time: 6500
+    go: "TSEKK"
+"TSEKK":
+  title: "Palun võtke tšekk!"
+  title_en: "Please take the paber!"
+  title_th: "ไม่มีกระดาษคือ"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: null
+    go: null
+  timer:
+    time: 1500
+    go: "PABERIL"

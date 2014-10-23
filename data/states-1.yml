@@ -1,0 +1,204 @@
+---
+"SISESTAKAART":
+  frontpage: true
+  button_sound: ATM_nupuvajutus.mp3
+  title: Palun sisesta kaart
+  title_en: "Please insert the card"
+  title_th: "กรุณา ใส่การ์ด"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
+    go: "PIN"
+  card_in:
+    go: "PIN"
+"PIN":
+  title: "Sisesta PIN:"
+  title_en: "Enter the PIN" 
+  title_th: "ป้อน PIN"
+  intro_sound: "ATM_kaardisisestus.mp3"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Katkesta"
+    label_en: "Abort" 
+    label_th: "ยกเลิก"
+    go: "LÕPETA"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
+    go: "ESILEHT"
+"ESILEHT":
+  title: "Palun valige toiming"
+  title_en: "Select activity"
+  title_th: "กิจกรรมที่เลือก"
+  b1:
+    label: "Maksed"
+    label_en: "Payments"
+    label_th:  "การชำระเงิน"
+    go: "MAKSED"
+  b2:
+    label: "PIN-koodi muutmine"
+    label_en: "Change PIN code" 
+    label_th: "เปลี่ยน รหัส PIN"
+    go: "VANAPIN"
+  b3:
+    label: "Keele valik"
+    label_en: "Change language"
+    label_th: "เลือกภาษา"
+    go: "KEEL"
+  b4:
+    label: "Kaardi tagastamine"
+    label_en: "Return the card"
+    label_th: "คืนบัตร"
+    go: "LÕPETA"
+  b5:
+    label: "Raha väljavõtmine"
+    label_en: "Cash withdrawal"
+    label_th: "ถอนเงินสด"
+    go: "SULARAHA"
+  b6:
+    label: "Kontojääk"
+    label_en: "Account balance"
+    label_th: "ยอดคงเหลือ บัญชี"
+    go: "KONTOJAAK"
+  b7:
+    label: "Konto väljavõte"
+    label_en: "Overview"
+    label_th: "ภาพรวม"
+    go: "KONTOVALJAVOTE"
+  b8:
+    label: null
+    go: null
+"KONTOJAAK":
+  title: "Kontojääk"
+  title_en: "Account balance"
+  title_th: "ยอดคงเหลือ บัญชี"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Paberil"
+    label_en: "On receipt"
+    label_th:  "บนกระดาษ"
+    go: "PABERIL"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Ekraanil"
+    label_en: "On the screen"
+    label_th: "บนหน้าจอ"
+    go: "EKRAANIKONTOJÄÄK"
+"KONTOVALJAVOTE":
+  title: "Konto väljavõte"
+  title_en: "Overview"
+  title_th: "ภาพรวม"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Paberil"
+    label_en: "On receipt"
+    label_th:  "บนกระดาษ"
+    go: "PABERIL"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Ekraanil"
+    label_en: "On the screen"
+    label_th: "บนหน้าจอ"
+    go: "EKRAANIKONTOJÄÄK"
+"KONTOVALJAVOTEEKRAANIL":
+  title: "Teie konto väljavõte:"
+  title_en: "Overview"
+  title_th: "ภาพรวม"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
+    go: "ESILEHT"

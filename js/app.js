@@ -12,7 +12,7 @@ $(function() {
   });
   
   
-  $.get('data/states.yml', function(data) {
+  $.get('data/states_all.yml', function(data) {
     
   var states = yaml.load(data)
   
@@ -28,6 +28,20 @@ $(function() {
   var currentLanguage = defaultLanguage = 'et'
   
   renderState(currentState)
+
+
+$('.field input').on('keypress', function(event) {
+
+  var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+  var regex = new RegExp("^[0-9]+$");
+
+  if (regex.test(key)) {
+    $('#firstSound').attr('src','audio/' + buttonSound).trigger('play')
+  } else {
+    event.preventDefault();
+    return false;
+  }
+})
 
 
 $('.button').on('click', function() {
@@ -47,6 +61,15 @@ $('.button').on('click', function() {
   currentState = states[states[currentState][id].go] ? states[currentState][id].go : currentState
   renderState(currentState)
  
+  $('.field').addClass('hidden')
+
+   if (states[currentState].input_pin) {
+      $('.pin').removeClass('hidden').find('input').val('').focus()
+   } else if (states[currentState].input_cash) {
+      $('.cash').removeClass('hidden').find('input').val('').focus()
+   }
+
+
   if (states[currentState].timer) {
     setTimeout(function() {
       currentState = states[states[currentState].timer.go] ? states[currentState].timer.go : currentState
