@@ -43,6 +43,19 @@ $('.field input').on('keypress', function(event) {
   }
 })
 
+// dupe!
+
+  if (states[currentState].display_ad) {
+      $('.image').removeClass('hidden')
+  } else {
+      $('.image').addClass('hidden')
+  }
+
+  if (states[currentState].display_help) {
+      $('.help').removeClass('hidden')
+  } else {
+      $('.help').addClass('hidden')
+  }
 
 $('.button').on('click', function() {
   
@@ -69,12 +82,31 @@ $('.button').on('click', function() {
       $('.cash').removeClass('hidden').find('input').val('').focus()
    }
 
+  if (states[currentState].display_ad) {
+      $('.image').removeClass('hidden')
+  } else {
+      $('.image').addClass('hidden')
+  }
 
+  if (states[currentState].display_help) {
+      $('.help').removeClass('hidden')
+  } else {
+      $('.help').addClass('hidden')
+  }
+  
   if (states[currentState].timer) {
     setTimeout(function() {
+    
+
       currentState = states[states[currentState].timer.go] ? states[currentState].timer.go : currentState
       $('#secondSound').trigger('pause')
       renderState(currentState)
+
+        if (states[currentState].display_ad) {
+      $('.image').removeClass('hidden')
+  } else {
+      $('.image').addClass('hidden')
+  }
       
     }, states[currentState].timer.time)
   }

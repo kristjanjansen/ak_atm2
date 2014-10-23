@@ -97,6 +97,73 @@
   title_en: "Please wait while the funds are being counted"
   title_th: "โปรดรอสักครู่ในขณะที่เงินจะถูกนับ"
   intro_sound: "votaraha.mp3"
+  display_ad: true
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: null
+    go: null
+  timer:
+    time: 6500
+    go: "VOTKERAHA"
+"VOTKERAHA":
+  title: "Palun võtke raha!"
+  title_en: "Please take the funds!"
+  title_th: "โปรดใช้เงิน"
+  display_ad: false
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Kaardi tagastamine"
+    label_en: "Return the Card"
+    label_th: "คืนบัตร"
+    go: "LÕPETA"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: "Kviitung"
+    label_en: "Receipt"
+    label_th: "ใบเสร็จรับเงิน"
+    go: "VOTKEKVIITUNG"
+  b8:
+    label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
+    go: "ESILEHT"
+"VOTKEKVIITUNG":
+  title: "Palun võtke kviitung!"
+  title_en: "Please take the receipt!"
+  title_th: "โปรดใช้เงิน"
   b1:
     label: null
     go: null
@@ -123,36 +190,4 @@
     go: null
   timer:
     time: 2000
-    go: "VOTKERAHA"
-"VOTKERAHA":
-  title: "Palun võtke raha!"
-  title_en: "Please take the funds!"
-  title_th: "โปรดใช้เงิน"
-  b1:
-    label: null
-    go: null
-  b2:
-    label: null
-    go: null
-  b3:
-    label: null
-    go: null
-  b4:
-    label: "Kaardi tagastamine"
-    label_en: "Return the Card"
-    label_th: "คืนบัตร"
-    go: "LÕPETA"
-  b5:
-    label: null
-    go: null
-  b6:
-    label: null
-    go: null
-  b7:
-    label: null
-    go: null
-  b8:
-    label: "Jätka"
-    label_en: "Continue"
-    label_th: "ดำเนินการต่อ"
     go: "ESILEHT"

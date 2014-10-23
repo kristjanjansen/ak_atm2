@@ -2,6 +2,7 @@
   title: "Kontol pole piisavalt vahendeid"
   title_en: "Insufficient funds"
   title_th: "เงินทุนไม่เพียงพอ"
+  display_ad: true
   b1:
     label: null
     go: null
@@ -248,10 +249,11 @@
     label_th: "ดำเนินการต่อ"
     go: "ESILEHT"
 "PABERIL":
-  title: "Palun oodake, paberit prinditakse..."
+  title: "Palun oodake, tšekki prinditakse..."
   title_en: "Please wait.."
   title_th: "ไม่มีกระดาษคือ"
   intro_sound: "printer.mp3"
+  display_ad: true
   b1:
     label: null
     go: null
@@ -277,11 +279,11 @@
     label: null
     go: null
   timer:
-    time: 6500
+    time: 8000
     go: "TSEKK"
 "TSEKK":
   title: "Palun võtke tšekk!"
-  title_en: "Please take the paber!"
+  title_en: "Please take the paper!"
   title_th: "ไม่มีกระดาษคือ"
   b1:
     label: null
@@ -305,8 +307,6 @@
     label: null
     go: null
   b8:
-    label: null
-    go: null
-  timer:
-    time: 1500
-    go: "PABERIL"
+    label: "Jätka"
+    go: "ESILEHT"
+  
