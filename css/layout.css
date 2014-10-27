@@ -26,8 +26,11 @@ body {
 .b {
   margin-bottom:40px;
 }
-.hidden {
+.invisible {
   opacity: 0;
+}
+.hidden {
+  display: none;
 }
 .left .label, .right .button {
   float: right;
@@ -45,9 +48,6 @@ body {
 .button {
   width: 70px;
   height: 70px;
-}
-.card {
-  display: none;
 }
 /*
 body {
@@ -84,6 +84,7 @@ body {
   position: absolute;
 }
 .field input {
+  font-family: 'Arial';
   padding: 10px;
   border-radius: 12px;
   font-size: 40px;
