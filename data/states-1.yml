@@ -105,8 +105,8 @@
     go: "KONTOJAAK"
   b7:
     label: "Konto väljavõte"
-    label_en: "Overview"
-    label_th: "ภาพรวม"
+    label_en: "Latest transactions"
+    label_th: "การทำธุรกรรมต่างๆ"
     go: "KONTOVALJAVOTE"
   b8:
     label: null
@@ -145,8 +145,8 @@
     go: "EKRAANIKONTOJÄÄK"
 "KONTOVALJAVOTE":
   title: "Konto väljavõte"
-  title_en: "Overview"
-  title_th: "ภาพรวม"
+  title_en: "Latest transactions"
+  title_th: "การทำธุรกรรมต่างๆ"
   b1:
     label: null
     go: null
@@ -174,11 +174,11 @@
     label: "Ekraanil"
     label_en: "On the screen"
     label_th: "บนหน้าจอ"
-    go: "EKRAANIKONTOJÄÄK"
+    go: "EKRAANIKONTOVÄLJAVÕTE"
 "KONTOVALJAVOTEEKRAANIL":
   title: "Teie konto väljavõte:"
-  title_en: "Overview"
-  title_th: "ภาพรวม"
+  title_en: "Latest transactions"
+  title_th: "การทำธุรกรรมต่างๆ"
   b1:
     label: null
     go: null

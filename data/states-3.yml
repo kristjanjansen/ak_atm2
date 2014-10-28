@@ -219,9 +219,39 @@
     label_th: "ดำเนินการต่อ"
     go: "ESILEHT"
 "EKRAANIKONTOJÄÄK":
-  title: "Kontojääk: 100 €<br /><br />Broneeritud: 10 €"
-  title_en: "Account Balance: 100 €<br /><br />Booked: 10 €"
-  title_th: "ยอดคงเหลือบัญชี: 100 €<br /><br />จอง: 10 €"
+  title: "Kontojääk: 100 €<br />Broneeritud: 10 €"
+  title_en: "Account Balance: 100 €<br />Booked: 10 €"
+  title_th: "ยอดคงเหลือบัญชี: 100 €<br />จอง: 10 €"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
+    go: "ESILEHT"
+"EKRAANIKONTOVÄLJAVÕTE":
+  title: "Konto väljavõte:<br /><br />Palk +50 €<br />Honorar +50 €<br /><br />Kontojääk: 100 €<br />Broneeritud: 10 €"
+  title_en: "Latest transactions:<br /><br />Salary +50 €<br />Fee +50 €<br /><br />Account Balance: 100 €<br />Booked: 10 €"
+  title_th: "การทำธุรกรรมบัญชี:<br /><br />เงินเดือน +50 €<br />ค่าธรรมเนียม +50 €<br /><br />ยอดคงเหลือบัญชี: 100 €<br />จอง: 10 €"
   b1:
     label: null
     go: null

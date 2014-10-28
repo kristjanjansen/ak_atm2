@@ -105,8 +105,8 @@
     go: "KONTOJAAK"
   b7:
     label: "Konto väljavõte"
-    label_en: "Overview"
-    label_th: "ภาพรวม"
+    label_en: "Latest transactions"
+    label_th: "การทำธุรกรรมต่างๆ"
     go: "KONTOVALJAVOTE"
   b8:
     label: null
@@ -145,8 +145,8 @@
     go: "EKRAANIKONTOJÄÄK"
 "KONTOVALJAVOTE":
   title: "Konto väljavõte"
-  title_en: "Overview"
-  title_th: "ภาพรวม"
+  title_en: "Latest transactions"
+  title_th: "การทำธุรกรรมต่างๆ"
   b1:
     label: null
     go: null
@@ -174,11 +174,11 @@
     label: "Ekraanil"
     label_en: "On the screen"
     label_th: "บนหน้าจอ"
-    go: "EKRAANIKONTOJÄÄK"
+    go: "EKRAANIKONTOVÄLJAVÕTE"
 "KONTOVALJAVOTEEKRAANIL":
   title: "Teie konto väljavõte:"
-  title_en: "Overview"
-  title_th: "ภาพรวม"
+  title_en: "Latest transactions"
+  title_th: "การทำธุรกรรมต่างๆ"
   b1:
     label: null
     go: null
@@ -267,7 +267,7 @@
     label: null
     go: null
   timer:
-    time: 2000
+    time: 4000
     go: "SISESTAKAART"
 "MAKSED":
   title: "See automaat ei paku<br>maksete funktsionaalsust"
@@ -361,12 +361,44 @@
     label: "Kviitung"
     label_en: "Receipt"
     label_th: "ใบเสร็จรับเงิน"
-    go: "VOTKEKVIITUNG"
+    go: "KVIITUNGITPRINDITAKSE"
   b8:
     label: "Jätka"
     label_en: "Continue"
     label_th: "ดำเนินการต่อ"
     go: "ESILEHT"
+"KVIITUNGITPRINDITAKSE":
+  title: "Palun oodake, kviitungit prinditakse..."
+  title_en: "Please wait.."
+  title_th: "ไม่มีกระดาษคือ"
+  intro_sound: "printer.mp3"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: null
+    go: null
+  timer:
+    time: 8000
+    go: "VOTKEKVIITUNG"
 "VOTKEKVIITUNG":
   title: "Palun võtke kviitung!"
   title_en: "Please take the receipt!"
@@ -396,7 +428,7 @@
     label: null
     go: null
   timer:
-    time: 2000
+    time: 4000
     go: "ESILEHT"
 "POLEVAHENDEID":
   title: "Kontol pole piisavalt vahendeid"
@@ -619,9 +651,39 @@
     label_th: "ดำเนินการต่อ"
     go: "ESILEHT"
 "EKRAANIKONTOJÄÄK":
-  title: "Kontojääk: 100 €<br /><br />Broneeritud: 10 €"
-  title_en: "Account Balance: 100 €<br /><br />Booked: 10 €"
-  title_th: "ยอดคงเหลือบัญชี: 100 €<br /><br />จอง: 10 €"
+  title: "Kontojääk: 100 €<br />Broneeritud: 10 €"
+  title_en: "Account Balance: 100 €<br />Booked: 10 €"
+  title_th: "ยอดคงเหลือบัญชี: 100 €<br />จอง: 10 €"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
+    go: "ESILEHT"
+"EKRAANIKONTOVÄLJAVÕTE":
+  title: "Konto väljavõte:<br /><br />Palk +50 €<br />Honorar +50 €<br /><br />Kontojääk: 100 €<br />Broneeritud: 10 €"
+  title_en: "Latest transactions:<br /><br />Salary +50 €<br />Fee +50 €<br /><br />Account Balance: 100 €<br />Booked: 10 €"
+  title_th: "การทำธุรกรรมบัญชี:<br /><br />เงินเดือน +50 €<br />ค่าธรรมเนียม +50 €<br /><br />ยอดคงเหลือบัญชี: 100 €<br />จอง: 10 €"
   b1:
     label: null
     go: null
@@ -653,7 +715,6 @@
   title_en: "Please wait.."
   title_th: "ไม่มีกระดาษคือ"
   intro_sound: "printer.mp3"
-  display_ad: true
   b1:
     label: null
     go: null

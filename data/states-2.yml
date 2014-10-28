@@ -154,12 +154,44 @@
     label: "Kviitung"
     label_en: "Receipt"
     label_th: "ใบเสร็จรับเงิน"
-    go: "VOTKEKVIITUNG"
+    go: "KVIITUNGITPRINDITAKSE"
   b8:
     label: "Jätka"
     label_en: "Continue"
     label_th: "ดำเนินการต่อ"
     go: "ESILEHT"
+"KVIITUNGITPRINDITAKSE":
+  title: "Palun oodake, kviitungit prinditakse..."
+  title_en: "Please wait.."
+  title_th: "ไม่มีกระดาษคือ"
+  intro_sound: "printer.mp3"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: null
+    go: null
+  timer:
+    time: 8000
+    go: "VOTKEKVIITUNG"
 "VOTKEKVIITUNG":
   title: "Palun võtke kviitung!"
   title_en: "Please take the receipt!"
@@ -189,5 +221,5 @@
     label: null
     go: null
   timer:
-    time: 2000
+    time: 4000
     go: "ESILEHT"
