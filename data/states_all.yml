@@ -695,8 +695,8 @@
     label: null
     go: null
   b4:
-    label: null
-    go: null
+    label: "Lõpeta"
+    go: "LÕPETA"
   b5:
     label: null
     go: null

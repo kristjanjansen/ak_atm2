@@ -60,7 +60,7 @@
     label: null
     go: null
   timer:
-    time: 2000
+    time: 4000
     go: "SISESTAKAART"
 "MAKSED":
   title: "See automaat ei paku<br>maksete funktsionaalsust"

@@ -253,7 +253,6 @@
   title_en: "Please wait.."
   title_th: "ไม่มีกระดาษคือ"
   intro_sound: "printer.mp3"
-  display_ad: true
   b1:
     label: null
     go: null
@@ -295,8 +294,8 @@
     label: null
     go: null
   b4:
-    label: null
-    go: null
+    label: "Lõpeta"
+    go: "LÕPETA"
   b5:
     label: null
     go: null
