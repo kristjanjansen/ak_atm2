@@ -293,7 +293,8 @@
   title_en: "Please wait while the funds are being counted"
   title_th: "โปรดรอสักครู่ในขณะที่เงินจะถูกนับ"
   intro_sound: "votaraha.mp3"
-  display_ad: true
+  intro_video: lotte_vaike.mp4
+  display_ad: false
   b1:
     label: null
     go: null

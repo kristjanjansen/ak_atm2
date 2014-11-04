@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <link href='http://fonts.googleapis.com/css?family=Bowlby+One' rel='stylesheet' type='text/css'>
+  <llink href='http://fonts.googleapis.com/css?family=Bowlby+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/layout.css"  />    
     <link id="custom-css" rel="stylesheet" type="text/css" />    
   </head>
   <body>
-    <div class="background">
-      <ideo id="firstVideo"></video>
 
+    <div class="background">
       <div class="logo"></div>
       <div class="title"></div>
       <div class="field hidden cash">
@@ -20,6 +19,10 @@
       <div class="image hidden" style="background-image: url(./images/swedbank_brandbook.png)"></div>
       <div class="help hidden" style="background-image: url(./images/pinpikto.png)"></div>
     </div>
+
+    <div class="shieldLeft">&nbsp;</div>
+    <div class="shieldRight">&nbsp;</div>
+
     <div class="left">
       <div id="b1" class="b">
           <div class="label invisible"></div>
@@ -38,6 +41,7 @@
           <div class="button">&nbsp;</div>
       </div>
     </div>
+
     <div class="right">
       <div id="b5" class="b">
           <div class="label invisible"></div>
@@ -56,9 +60,12 @@
         <div class="button">&nbsp;</div>
       </div>
     </div>
+
+    <video id="firstVideo" class="hidden"></video>
     <audio id="firstSound"></audio>
     <audio id="secondSound"></audio>
     <audio id="secondSound2"></audio>
+
     <script type="text/javascript" src="node_modules/yaml-js/yaml.min.js"></script>
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="node_modules/backbone-events-standalone/backbone-events-standalone.min.js"></script>

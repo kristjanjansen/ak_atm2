@@ -115,11 +115,15 @@ e.on('changeState', function() {
 
 e.on('changeState', function() {
   
-  $('#firstVideo').trigger('pause')
 
   if (introVideo = states[currentState].intro_video) {
     $('#firstVideo').attr('src','video/' + introVideo).prop('loop', true).prop('muted', true).trigger('play')
+  } else {
+      $('#firstVideo').trigger('pause')
   }
+
+    $('#firstVideo').toggleClass('hidden', !states[currentState].intro_video)
+
 
 });
 

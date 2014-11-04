@@ -21,7 +21,7 @@ body {
   width: 25%;
   line-height: 1.1em;
   text-shadow: 5px 5px 12px rgba(0,0,0,0.15);
-
+  z-index: 10000 !important;
 }
 .right .b {
   text-align: left;
@@ -39,14 +39,32 @@ body {
 .button {
   border-radius: 6px;
 }
+
+.shieldLeft {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background: blue;
+  height: 100%;
+  z-index: 0;
+  width: 250px;
+}
+
+.shieldRight {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  background: blue;
+  height: 100%;
+  z-index: 0;
+  width: 250px;
+}
+
 #firstVideo {
 	position: fixed;
-  	left:  250px;
-	right: 250px;
-  	bottom: 0;
+  left: 0px;
+	top: 0px;
 	width: 100%;
 	height: 100%;
-	z-index: -300;
-
-	background-size: cover;
+	z-index: -100;
 }
