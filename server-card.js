@@ -20,9 +20,11 @@ var list = require('./node_modules/node-pcsc/lib/smcard-list.js')
 
 pcsc.init();
 
+  pcsc.on('evt', function(evt) {
+
 io.on('connection', function (socket) {
   
-  pcsc.on('evt', function(evt) {
+    console.log(evt)
     console.log(list.list[evt.card.ATR])
   	if (Object.keys(evt.card).length !== 0 && evt.reader.status == 'SCARD_STATE_PRESENT') {
   	  socket.emit('message', { status: 'card_in', card: list.list[evt.card.ATR] });

@@ -9,7 +9,7 @@ var socket = io('http://localhost');
 // Get states
 
 $.ajaxSetup({async: false});
-$.get('./data/states_all.yml', function(data) {
+$.get('./data/states_lotte.yml', function(data) {
   states = yaml.load(data)
 })
 
@@ -100,6 +100,28 @@ e.on('changeState', function() {
 
 });
 
+// Play intro sound2
+
+e.on('changeState', function() {
+  
+  if (introSound = states[currentState].intro_sound2) {
+    $('#secondSound2').trigger('pause')
+    $('#secondSound2').attr('src','audio/' + introSound).trigger('play')
+  }
+
+});
+
+// Play intro video
+
+e.on('changeState', function() {
+  
+  $('#firstVideo').trigger('pause')
+
+  if (introVideo = states[currentState].intro_video) {
+    $('#firstVideo').attr('src','video/' + introVideo).prop('loop', true).prop('muted', true).trigger('play')
+  }
+
+});
 
 // Change title
 
