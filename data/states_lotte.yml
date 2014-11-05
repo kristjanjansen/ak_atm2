@@ -331,6 +331,7 @@
   title_en: "Please take the funds!"
   title_th: "โปรดใช้เงิน"
   display_ad: false
+  intro_sound2: "07_raha_2ra.mp3"
   b1:
     label: null
     go: null
