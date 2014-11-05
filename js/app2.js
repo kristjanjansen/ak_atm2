@@ -36,9 +36,11 @@ $(function() {
 
 // Trigger: DOM buttons
 
-$('.button').on('click', function() {
+$('.b').on('click', function() {
 
-  var id = $(this).parent().attr('id')
+ // var id = $(this).parent().attr('id')
+
+  var id = $(this).attr('id')
   
   if (states[currentState][id].go) {
     
@@ -96,6 +98,8 @@ e.on('changeState', function() {
   if (introSound = states[currentState].intro_sound) {
     $('#secondSound').trigger('pause')
     $('#secondSound').attr('src','audio/' + introSound).trigger('play')
+  } else {
+    $('#secondSound').trigger('pause')
   }
 
 });
@@ -107,6 +111,8 @@ e.on('changeState', function() {
   if (introSound = states[currentState].intro_sound2) {
     $('#secondSound2').trigger('pause')
     $('#secondSound2').attr('src','audio/' + introSound).trigger('play')
+  } else {
+    $('#secondSound2').trigger('pause')
   }
 
 });
@@ -117,7 +123,7 @@ e.on('changeState', function() {
   
 
   if (introVideo = states[currentState].intro_video) {
-    $('#firstVideo').attr('src','video/' + introVideo).prop('loop', true).prop('muted', true).trigger('play')
+    $('#firstVideo').attr('src','video/' + introVideo).prop('loop', true).prop('muted', states[currentState].video_muted).trigger('play')
   } else {
       $('#firstVideo').trigger('pause')
   }
