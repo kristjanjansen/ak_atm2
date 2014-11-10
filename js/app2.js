@@ -5,11 +5,16 @@ var currentLanguage = defaultLanguage = 'et'
 
 var socket = io('http://localhost');
 
+var bank = (getURL('bank') || 'default')
+
+// Get style
+
+$('#custom-css').attr('href', 'data/' + bank + '.css')
 
 // Get states
 
 $.ajaxSetup({async: false});
-$.get('./data/states_lotte.yml', function(data) {
+$.get('./data/' + bank + '.yml', function(data) {
   states = yaml.load(data)
 })
 
@@ -222,7 +227,7 @@ $('.field input').on('keypress', function(event) {
 
 // CSS query parameter
 
-function query(variable) {
+function getURL(variable) {
   var query = window.location.search.substring(1);
   var vars = query.split("&");
   for (var i = 0; i < vars.length; i++) {
@@ -234,6 +239,4 @@ function query(variable) {
   return(false);
 }
 
-var css = (query('css') || 'style.css')
-$('#custom-css').attr('href', 'data/' + css)
 
