@@ -201,7 +201,7 @@
   title: "Palju sul raha vaja on?"
   title_en: "Cash Withdrawal"
   title_th: "ถอนเงินสด"
-  intro_sound2: "10_palju_raha_vaja.mp3"
+  intro_sound_2: "10_palju_raha_vaja.mp3"
   b1:
     label: "5 €"
     go: "RAHALOEND"
@@ -233,7 +233,7 @@
   title_en: "Remove the Card" 
   title_th: "ลบการ์ด"
   intro_sound: "ATM_kaartvalja.mp3"
-  intro_sound2: "04.kaartautomaadistagasi.mp3"
+  intro_sound_2: "04.kaartautomaadistagasi.mp3"
   b1:
     label: null
     go: null
@@ -296,7 +296,7 @@
   title_en: "Please wait while the funds are being counted"
   title_th: "โปรดรอสักครู่ในขณะที่เงินจะถูกนับ"
   intro_sound: "05.rahatuleb_2.mp3"
-  intro_sound2: "03.nyydootanatukene.mp3"
+  intro_sound_2: "03.nyydootanatukene.mp3"
   intro_video: lotte_vaike_3.mp4
   display_ad: false
   b1:
@@ -331,7 +331,7 @@
   title_en: "Please take the funds!"
   title_th: "โปรดใช้เงิน"
   display_ad: false
-  intro_sound2: "07_raha_2ra.mp3"
+  intro_sound_2: "07_raha_2ra.mp3"
   b1:
     label: null
     go: null
@@ -487,7 +487,7 @@
   title_en: "Enter the sum of"
   title_th: "ใส่ผลรวมของ"
   input_cash: true
-  intro_sound2: "13_vali_ise_summa.mp3"
+  intro_sound_2: "13_vali_ise_summa.mp3"
   b1:
     label: null
     go: null
@@ -707,7 +707,7 @@
   title_en: "Please wait.."
   title_th: "ไม่มีกระดาษคือ"
   intro_sound: "printer.mp3"
-  intro_sound2: "03.nyydootanatukene.mp3"
+  intro_sound_2: "03.nyydootanatukene.mp3"
   b1:
     label: null
     go: null
@@ -739,7 +739,7 @@
   title: "Võta oma paber"
   title_en: "Please take the paper!"
   title_th: "ไม่มีกระดาษคือ"
-  intro_sound2: "11_vota_oma_paber.mp3"
+  intro_sound_2: "11_vota_oma_paber.mp3"
   b1:
     label: null
     go: null
@@ -766,7 +766,7 @@
     go: null
 "MÜNDID":
   title: "Kalla mündid automaati"
-  intro_sound2: "09_kalla_oma_myndid.mp3"
+  intro_sound_2: "09_kalla_oma_myndid.mp3"
   b1:
     label: null
     go: null
@@ -795,7 +795,7 @@
   title: "Nüüd oota natuke"
   title_en: "Please wait while the funds are being counted"
   title_th: "โปรดรอสักครู่ในขณะที่เงินจะถูกนับ"
-  intro_sound2: "money.mp3"
+  intro_sound_2: "money.mp3"
   intro_sound: "03.nyydootanatukene.mp3"
   intro_video: lotte_vaike_3.mp4
   intro_video_muted: true
@@ -829,7 +829,7 @@
     go: "MÜNDIDSISESTATUD"
 "MÜNDIDSISESTATUD":
   title: "Nüüd on sul rohkem raha"
-  intro_sound2: "12_arvel_rohkem_raha.mp3"
+  intro_sound_2: "12_arvel_rohkem_raha.mp3"
   b1:
     label: null
     go: null

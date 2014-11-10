@@ -9,7 +9,7 @@ var bank = (getURL('bank') || 'default')
 
 // Get style
 
-$('#custom-css').attr('href', 'data/' + bank + '.css')
+$('.custom-css').attr('href', 'data/' + bank + '.css')
 
 // Get states
 
@@ -52,7 +52,7 @@ $('.b').on('click', function() {
     // Button sound
 
     if (buttonSound = states[Object.keys(states)[0]].button_sound) {
-      $('#firstSound').attr('src','audio/' + buttonSound).trigger('play')
+      $('.button-sound').attr('src','audio/' + buttonSound).trigger('play')
     }
     
     // Change language
@@ -101,10 +101,10 @@ e.on('changeState', function(state) {
 e.on('changeState', function() {
   
   if (introSound = states[currentState].intro_sound) {
-    $('#secondSound').trigger('pause')
-    $('#secondSound').attr('src','audio/' + introSound).trigger('play')
+    $('.intro-sound').trigger('pause')
+    $('.intro-sound').attr('src','audio/' + introSound).trigger('play')
   } else {
-    $('#secondSound').trigger('pause')
+    $('.intro-sound').trigger('pause')
   }
 
 });
@@ -113,11 +113,11 @@ e.on('changeState', function() {
 
 e.on('changeState', function() {
   
-  if (introSound = states[currentState].intro_sound2) {
-    $('#sound-three').trigger('pause')
-    $('#sound-three').attr('src','audio/' + introSound).trigger('play')
+  if (intro_sound_2 = states[currentState].intro_sound_2) {
+    $('.intro-sound-2').trigger('pause')
+    $('.intro-sound-2').attr('src','audio/' + intro_sound_2).trigger('play')
   } else {
-    $('#sound-three').trigger('pause')
+    $('.intro-sound-2').trigger('pause')
   }
 
 });
@@ -127,12 +127,12 @@ e.on('changeState', function() {
 
 e.on('changeState', function() {
 
-  $('.video-1').toggleClass('hidden', !states[currentState].intro_video)
+  $('.intro-video').toggleClass('hidden', !states[currentState].intro_video)
 
   if (introVideo = states[currentState].intro_video) {
-     $('.video-1').attr('src','video/' + introVideo).prop('loop', true).prop('muted', states[currentState].intro_video_muted).trigger('play')
+     $('.intro-video').attr('src','video/' + introVideo).prop('loop', true).prop('muted', states[currentState].intro_video_muted).trigger('play')
   } else {
-     $('.video-1').trigger('pause')
+     $('.intro-video').trigger('pause')
   }
 
 
@@ -216,7 +216,7 @@ $('.field input').on('keypress', function(event) {
   var regex = new RegExp("^[0-9]+$");
 
   if (regex.test(key) && (buttonSound = states[Object.keys(states)[0]].button_sound)) {
-    $('#firstSound').attr('src','audio/' + buttonSound).trigger('play')
+    $('.button-sound').attr('src','audio/' + buttonSound).trigger('play')
   } else {
     event.preventDefault();
     return false;
