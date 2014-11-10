@@ -41,30 +41,6 @@ body {
   border-radius: 6px;
 }
 
-.shieldLeft, .shieldRight {
-  position: fixed;
-  top: 0px;
-  background: black;
-  height: 100%;
-  z-index: 0;
-  width: 250px;	
-}
-.shieldLeft {
-  left: 0px;
-}
-.shieldRight {
-  right: 0px;
-}
-
-#firstVideo {
-	position: fixed;
-  left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: -100;
-}
-
 .field {
   margin-top: 360px;
 }

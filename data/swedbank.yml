@@ -5,8 +5,7 @@
   title: Palun sisesta kaart
   title_en: "Please insert the card"
   title_th: "กรุณา ใส่การ์ด"
-  display_ad: false
-  intro_video: lotte_vaike.mp4
+  display_ad: true
   b1:
     label: null
     go: null

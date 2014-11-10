@@ -798,8 +798,8 @@
   intro_sound2: "money.mp3"
   intro_sound: "03.nyydootanatukene.mp3"
   intro_video: lotte_vaike_3.mp4
+  intro_video_muted: true
   display_ad: false
-  video_muted: true
   b1:
     label: null
     go: null

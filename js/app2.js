@@ -114,29 +114,30 @@ e.on('changeState', function() {
 e.on('changeState', function() {
   
   if (introSound = states[currentState].intro_sound2) {
-    $('#secondSound2').trigger('pause')
-    $('#secondSound2').attr('src','audio/' + introSound).trigger('play')
+    $('#sound-three').trigger('pause')
+    $('#sound-three').attr('src','audio/' + introSound).trigger('play')
   } else {
-    $('#secondSound2').trigger('pause')
+    $('#sound-three').trigger('pause')
   }
 
 });
+
 
 // Play intro video
 
 e.on('changeState', function() {
-  
+
+  $('.video-1').toggleClass('hidden', !states[currentState].intro_video)
 
   if (introVideo = states[currentState].intro_video) {
-    $('#firstVideo').attr('src','video/' + introVideo).prop('loop', true).prop('muted', states[currentState].video_muted).trigger('play')
+     $('.video-1').attr('src','video/' + introVideo).prop('loop', true).prop('muted', states[currentState].intro_video_muted).trigger('play')
   } else {
-      $('#firstVideo').trigger('pause')
+     $('.video-1').trigger('pause')
   }
-
-    $('#firstVideo').toggleClass('hidden', !states[currentState].intro_video)
 
 
 });
+
 
 // Change title
 
