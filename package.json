@@ -2,11 +2,15 @@
   "name": "ak_atm2",
   "version": "0.0.0",
   "description": "",
+  "scripts": {
+    "install": "modules=(jquery yaml-js backbone-events-standalone) && cp -R \"${modules[@]/#/node_modules/}\" public/vendor/."
+  },
   "dependencies": {
     "jquery": "~2.1.1",
-    "yaml-js": "~0.1.0"
-  },
-  "devDependencies": {
-    "nws": "~0.5.0"
+    "yaml-js": "~0.1.0",
+    "ip": "~0.3.2",
+    "ecstatic": "~0.5.6",
+    "node-pcsc": "~0.2.3",
+    "socket.io": "~1.2.0"
   }
 }

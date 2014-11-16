@@ -1,7 +1,6 @@
 var exec = require('child_process').exec
 
 var path = '/Volumes/dk/Projektid/MK-13/veebitehnoloogiad/'
-// var path = '../'
 
 setInterval(function() {
 

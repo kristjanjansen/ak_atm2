@@ -1,25 +1,39 @@
-## Installing
+### Installing and running
 
-```
-git clone https://github.com/kristjanjansen/ak_atm2
-cd ak_atm2
-```
+    git clone https://github.com/kuressaareametikool/atm
+    cd atm
+    npm install
+    node server.js
 
-## Running
+Alternatively, just clone the project to your local web server and point the browser to 
+```public``` subdirectory.
 
-First, run
-
-```
-node server.js
-```
-
-Then, point your browser to the URL the command gave you.
+Then, point your browser to the URL shown in terminal output.
 
 Note that you can change the port number: ```node server.js portnumber```.
 
-## Editing
+### Editing
 
-To change ATM states, edit ```/data/states.yml``` file. To change CSS, edit ```/data/style.css```.
+To change ATM states, edit yml and css files in ```/public/banks``` directory.
 
+### Workflow
 
-http://www.hidglobal.com/drivers/20384
+To update the data files from the local network one can use following script(s):
+
+    var exec = require('child_process').exec
+
+    var path = '/Volumes/dk/Projektid/MK-13/veebitehnoloogiad/'
+
+    setInterval(function() {
+
+    var command1 = 'cp ' + path '*.css public/banks/.'
+    var command2 = 'cp ' + path + 'states-* public/banks/. && cat $(ls -t -1 public/banks/states-* | sort) > public/banks/states_all.yml'
+
+    child = exec(command1,
+     function (error, stdout, stderr) {
+        console.log('Updating files')
+        console.log(stdout);
+        console.log(stderr);
+    });
+
+    }, 3000)

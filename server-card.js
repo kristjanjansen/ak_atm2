@@ -4,7 +4,7 @@ var ip = require('ip');
 
 var port = process.argv[2] ? process.argv[2] : 8000
 var app = http.createServer(
-  ecstatic({ root: __dirname})
+  ecstatic({ root: __dirname + '/public'})
 ).listen(port);
 
 var io = require('socket.io')(app);
