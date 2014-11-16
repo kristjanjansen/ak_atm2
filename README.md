@@ -1,24 +1,35 @@
+### About
+
+This is the student project for studiyng and designing interactions for ATM machines.
+
 ### Installing and running
+
+If you have Git and NodeJS installed, run the following commands:
 
     git clone https://github.com/kuressaareametikool/atm
     cd atm
     npm install
     node server.js
 
-Alternatively, just clone the project to your local web server and point the browser to 
-```public``` subdirectory.
-
-Then, point your browser to the URL shown in terminal output.
-
 Note that you can change the port number: ```node server.js portnumber```.
+
+Alternatively, just download the project to your local web server and point the browser to 
+```public``` subdirectory, no NodeJS nor Git is neccessary.
+
+
+### Viewing
+
+To view different ATM versions, add **?bank=insert-bankname-here** in the URL string. The name
+has to match with the corresponding ```.yml``` and ```.css``` files in ```/public/banks/``` directory.
 
 ### Editing
 
-To change ATM states, edit yml and css files in ```/public/banks``` directory.
+To edit different ATM versions, edit the corresponding yml and css files in ```/public/banks```.
+ directory.
 
 ### Workflow
 
-To update the data files from the local network one can use following script(s):
+To regulary update the data files from the local network one can use following script(s):
 
     var exec = require('child_process').exec
 
