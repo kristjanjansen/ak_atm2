@@ -3,7 +3,7 @@ var states = {}
 var currentState = ''
 var currentLanguage = defaultLanguage = 'et'
 
-var socket = io();
+// var socket = io();
 
 var bank = (getURL('bank') || 'lotte')
 
@@ -71,6 +71,7 @@ $('.b').on('click', function() {
 
 // Trigger: Socket
 
+/*
 socket.on('message', function(data) {
 
   if (data.status == 'card_in' && states[currentState].card_in) {
@@ -80,7 +81,7 @@ socket.on('message', function(data) {
   }
 
 });
-
+*/
 
 
 // STATE CHANGES
