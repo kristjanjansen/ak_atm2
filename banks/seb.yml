@@ -1,0 +1,772 @@
+---
+"SISESTAKAART":
+  frontpage: true
+  button_sound: ATM_nupuvajutus.mp3
+  title: Palun sisesta kaart
+  title_en: "Please insert the card"
+  title_th: "กรุณา ใส่การ์ด"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
+    go: "PIN"
+  card_in:
+    go: "PIN"
+"PIN":
+  title: "Sisesta PIN:"
+  title_en: "Enter the PIN" 
+  title_th: "ป้อน PIN"
+  intro_sound: "ATM_kaardisisestus.mp3"
+  input_pin: true
+  display_help: true
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Katkesta"
+    label_en: "Abort" 
+    label_th: "ยกเลิก"
+    go: "LÕPETA"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
+    go: "ESILEHT"
+"ESILEHT":
+  title: "Palun valige toiming"
+  title_en: "Select activity"
+  title_th: "กิจกรรมที่เลือก"
+  b1:
+    label: "Maksed"
+    label_en: "Payments"
+    label_th:  "การชำระเงิน"
+    go: "MAKSED"
+  b2:
+    label: "PIN-koodi muutmine"
+    label_en: "Change PIN code" 
+    label_th: "เปลี่ยน รหัส PIN"
+    go: "VANAPIN"
+  b3:
+    label: "Keele valik"
+    label_en: "Change language"
+    label_th: "เลือกภาษา"
+    go: "KEEL"
+  b4:
+    label: "Kaardi tagastamine"
+    label_en: "Return the card"
+    label_th: "คืนบัตร"
+    go: "LÕPETA"
+  b5:
+    label: "Raha väljavõtmine"
+    label_en: "Cash withdrawal"
+    label_th: "ถอนเงินสด"
+    go: "SULARAHA"
+  b6:
+    label: "Kontojääk"
+    label_en: "Account balance"
+    label_th: "ยอดคงเหลือ บัญชี"
+    go: "KONTOJAAK"
+  b7:
+    label: "Konto väljavõte"
+    label_en: "Latest transactions"
+    label_th: "การทำธุรกรรมต่างๆ"
+    go: "KONTOVALJAVOTE"
+  b8:
+    label: null
+    go: null
+"KONTOJAAK":
+  title: "Kontojääk"
+  title_en: "Account balance"
+  title_th: "ยอดคงเหลือ บัญชี"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Paberil"
+    label_en: "On receipt"
+    label_th:  "บนกระดาษ"
+    go: "PABERIL"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Ekraanil"
+    label_en: "On the screen"
+    label_th: "บนหน้าจอ"
+    go: "EKRAANIKONTOJÄÄK"
+"KONTOVALJAVOTE":
+  title: "Konto väljavõte"
+  title_en: "Latest transactions"
+  title_th: "การทำธุรกรรมต่างๆ"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Paberil"
+    label_en: "On receipt"
+    label_th:  "บนกระดาษ"
+    go: "PABERIL"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Ekraanil"
+    label_en: "On the screen"
+    label_th: "บนหน้าจอ"
+    go: "EKRAANIKONTOVÄLJAVÕTE"
+"KONTOVALJAVOTEEKRAANIL":
+  title: "Teie konto väljavõte:"
+  title_en: "Latest transactions"
+  title_th: "การทำธุรกรรมต่างๆ"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
+    go: "ESILEHT"
+"SULARAHA":
+  title: "Raha väljavõtmine"
+  title_en: "Cash Withdrawal"
+  title_th: "ถอนเงินสด"
+  b1:
+    label: "5 €"
+    go: "RAHALOEND"
+  b2:
+    label: "10 €"
+    go: "RAHALOEND"
+  b3:
+    label: "20 €"
+    go: "RAHALOEND"
+  b4:
+    label: "40 €"
+    go: "RAHALOEND"
+  b5:
+    label: "80 €"
+    go: "RAHALOEND"
+  b6:
+    label: "160 €"
+    go: "POLEVAHENDEID"
+  b7:
+    label: "Väiksed kupüürid"
+    label_en: "Small Notes"
+    label_th: "หมายเหตุ ขนาดเล็ก"
+    go: "VAIKSEDKUPUURID"
+  b8:
+    label: "Muu summa"
+    label_en: "Other Amount"
+    label_th: "จํานวนเงิน อื่น ๆ"
+    go: "SISESTASUMMA"
+"LÕPETA":
+  title: "Eemalda kaart"
+  title_en: "Remove the Card" 
+  title_th: "ลบการ์ด"
+  intro_sound: "ATM_kaartvalja.mp3"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: null
+    go: null
+  timer:
+    time: 4000
+    go: "SISESTAKAART"
+"MAKSED":
+  title: "See automaat ei paku<br>maksete funktsionaalsust"
+  title_en: "This ATM does not provide<br>payment functionality"
+  title_th: "ATM นี้จะไม่ให้การทำงานที่ชำระเงิน" 
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Lõpeta"
+    label_en: "End"
+    label_th: "สุดท้าย"
+    go: "LÕPETA"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: null
+    go: null
+"RAHALOEND":
+  title: "Palun oodake, raha loetakse..."
+  title_en: "Please wait while the funds are being counted"
+  title_th: "โปรดรอสักครู่ในขณะที่เงินจะถูกนับ"
+  intro_sound: "votaraha.mp3"
+  display_ad: true
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: null
+    go: null
+  timer:
+    time: 6500
+    go: "VOTKERAHA"
+"VOTKERAHA":
+  title: "Palun võtke raha!"
+  title_en: "Please take the funds!"
+  title_th: "โปรดใช้เงิน"
+  display_ad: false
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Kaardi tagastamine"
+    label_en: "Return the Card"
+    label_th: "คืนบัตร"
+    go: "LÕPETA"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: "Kviitung"
+    label_en: "Receipt"
+    label_th: "ใบเสร็จรับเงิน"
+    go: "KVIITUNGITPRINDITAKSE"
+  b8:
+    label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
+    go: "ESILEHT"
+"KVIITUNGITPRINDITAKSE":
+  title: "Palun oodake, kviitungit prinditakse..."
+  title_en: "Please wait.."
+  title_th: "ไม่มีกระดาษคือ"
+  intro_sound: "printer.mp3"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: null
+    go: null
+  timer:
+    time: 8000
+    go: "VOTKEKVIITUNG"
+"VOTKEKVIITUNG":
+  title: "Palun võtke kviitung!"
+  title_en: "Please take the receipt!"
+  title_th: "โปรดใช้เงิน"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: null
+    go: null
+  timer:
+    time: 4000
+    go: "ESILEHT"
+"POLEVAHENDEID":
+  title: "Kontol pole piisavalt vahendeid"
+  title_en: "Insufficient funds"
+  title_th: "เงินทุนไม่เพียงพอ"
+  display_ad: true
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Tagasi"
+    label_en: "Back"
+    label_th: "กลับ"  
+    go: "SULARAHA"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: null
+    go: null
+"VAIKSEDKUPUURID":
+  title: "Väiksed kupüürid"
+  title_en: "Small notes"
+  title_th: "หมายเหตุ ขนาดเล็ก"
+  b1:
+    label: "20 €"
+    go: "RAHALOEND"
+  b2:
+    label: "30 €"
+    go: "RAHALOEND"
+  b3:
+    label: "40 €"
+    go: "RAHALOEND"
+  b4:
+    label: "50 €"
+    go: "RAHALOEND"
+  b5:
+    label: "70 €"
+    go: "RAHALOEND"
+  b6:
+    label: "100 €"
+    go: "RAHALOEND"
+  b7:
+    label: "120 €"
+    go: "POLEVAHENDEID"
+  b8:
+    label: "Muu summa"
+    label_en: "Other amount" 
+    label_th: "จํานวนเงิน อื่น ๆ"
+    go: "SISESTASUMMA"
+"SISESTASUMMA":
+  title: "Sisesta summa"
+  title_en: "Enter the sum of"
+  title_th: "ใส่ผลรวมของ"
+  input_cash: true
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Tagasi"
+    label_en: "Back"
+    label_th: "กลับ"  
+    go: "SULARAHA"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
+    go: "RAHALOEND"
+"KEEL":
+  title: "Vali keel"
+  title_en: "Language"
+  title_th: "เลือกภาษา"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Tagasi/Back/กลับ"
+    go: "ESILEHT"
+  b5:
+    label: "Eesti keel"
+    language: "et"
+    go: "ESILEHT"
+  b6:
+    label: "In English"
+    language: "en"
+    go: "ESILEHT"
+  b7:
+    label: "ในไต้หวัน"
+    language: "th"
+    go: "ESILEHT"
+  b8:
+    label: null
+    go: null
+"VANAPIN":
+  title: "Hoiatus - ära pane sama PIN-i uuesti!"
+  title_en: "Warning - do not place the same PIN again!"
+  title_th: "คำเตือน - อย่าวาง PIN เดียวกันอีกครั้ง!"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
+    go: "PINMUUTMINE"
+"PINMUUTMINE":
+  title: "Uus PIN-kood:"
+  title_en: "New PIN"
+  title_th: "PIN ใหม่"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Katkesta"
+    label_en: "Abort"
+    label_th: "ยกเลิก"
+    go: "ESILEHT"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: "Kustuta"
+    label_en: "Delete"
+    label_th: "ลบ"
+    go: null
+  b8:
+    label: null
+    go: null
+  timer:
+    time: 2000
+    go: "PINMUUDETUD"
+"PINMUUDETUD":
+  title: "PIN on muudetud!"
+  title_en: "PIN has been changed!"
+  title_th: "ได้เปลี่ยนรหัส PIN!"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
+    go: "ESILEHT"
+"EKRAANIKONTOJÄÄK":
+  title: "Kontojääk: 100 €<br />Broneeritud: 10 €"
+  title_en: "Account Balance: 100 €<br />Booked: 10 €"
+  title_th: "ยอดคงเหลือบัญชี: 100 €<br />จอง: 10 €"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
+    go: "ESILEHT"
+"EKRAANIKONTOVÄLJAVÕTE":
+  title: "Konto väljavõte:<br /><br />Palk +50 €<br />Honorar +50 €<br /><br />Kontojääk: 100 €<br />Broneeritud: 10 €"
+  title_en: "Latest transactions:<br /><br />Salary +50 €<br />Fee +50 €<br /><br />Account Balance: 100 €<br />Booked: 10 €"
+  title_th: "การทำธุรกรรมบัญชี:<br /><br />เงินเดือน +50 €<br />ค่าธรรมเนียม +50 €<br /><br />ยอดคงเหลือบัญชี: 100 €<br />จอง: 10 €"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    label_en: "Continue"
+    label_th: "ดำเนินการต่อ"
+    go: "ESILEHT"
+"PABERIL":
+  title: "Palun oodake, tšekki prinditakse..."
+  title_en: "Please wait.."
+  title_th: "ไม่มีกระดาษคือ"
+  intro_sound: "printer.mp3"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: null
+    go: null
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: null
+    go: null
+  timer:
+    time: 8000
+    go: "TSEKK"
+"TSEKK":
+  title: "Palun võtke tšekk!"
+  title_en: "Please take the paper!"
+  title_th: "ไม่มีกระดาษคือ"
+  b1:
+    label: null
+    go: null
+  b2:
+    label: null
+    go: null
+  b3:
+    label: null
+    go: null
+  b4:
+    label: "Lõpeta"
+    go: "LÕPETA"
+  b5:
+    label: null
+    go: null
+  b6:
+    label: null
+    go: null
+  b7:
+    label: null
+    go: null
+  b8:
+    label: "Jätka"
+    go: "ESILEHT"
+  
