@@ -22,3 +22,4 @@
 8. Palun oodake raha loetakse -> Raha väljastamine -> Palun võtke raha.
 9. Peale esimest kõrinat -> Raha väljastamine.
 10. Palun võtke raha -> Pole nuppe -> Kui raha on võetud tuleb uus staatus -> Kas soovite sularaha väljamakset? Nupud: -, -, Ekraanil, Peamenüü, - -, Paberile, Lõpetamine
+11. 
