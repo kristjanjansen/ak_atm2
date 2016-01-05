@@ -16,6 +16,10 @@ Note that you can change the port number: ```node server.js portnumber```.
 Alternatively, just download the project to your local web server and point the browser to 
 ```public``` subdirectory, no NodeJS nor Git is neccessary.
 
+### Running with smartcard support
+
+    npm install node-pcsc
+    node server-card.js
 
 ### Viewing
 
