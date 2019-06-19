@@ -1,3 +1,7 @@
+![](screenshot.jpg)
+
+## Atm prototype 2015
+
 ### About
 
 This is the student project for studiyng and designing interactions for ATM machines.
