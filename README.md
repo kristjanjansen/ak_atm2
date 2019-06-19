@@ -1,6 +1,6 @@
 ![](screenshot.jpg)
 
-## Atm prototype 2015
+## ATM prototype 2015
 
 ### About
 
