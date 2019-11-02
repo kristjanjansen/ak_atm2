@@ -9,7 +9,7 @@
     "jquery": "~2.1.1",
     "yaml-js": "~0.1.0",
     "ip": "~0.3.2",
-    "ecstatic": "~0.5.6",
+    "ecstatic": "~4.1.2",
     "socket.io": "~1.2.0",
     "backbone-events-standalone": "~0.2.4"
   }
