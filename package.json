@@ -6,7 +6,7 @@
     "install": "modules=(jquery yaml-js backbone-events-standalone) && cp -R \"${modules[@]/#/node_modules/}\" public/vendor/."
   },
   "dependencies": {
-    "jquery": "~2.1.1",
+    "jquery": "~3.5.0",
     "yaml-js": "~0.1.0",
     "ip": "~0.3.2",
     "ecstatic": "~0.5.6",
